@@ -54,14 +54,22 @@
 		5B293E701D69132200AA382C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				5B293E711D69132200AA382C /* AppDelegate.swift */,
+				5B293E831D69175900AA382C /* Helping Files */,
 				5B293E731D69132200AA382C /* ViewController.swift */,
 				5B293E751D69132200AA382C /* Main.storyboard */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		5B293E831D69175900AA382C /* Helping Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B293E711D69132200AA382C /* AppDelegate.swift */,
 				5B293E781D69132200AA382C /* Assets.xcassets */,
 				5B293E7A1D69132200AA382C /* LaunchScreen.storyboard */,
 				5B293E7D1D69132200AA382C /* Info.plist */,
 			);
-			path = Calculator;
+			name = "Helping Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					5B293E6D1D69132200AA382C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WX3296G2H7;
 					};
 				};
 			};
@@ -251,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uoft.jasonandviolet.Calculator;
@@ -262,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uoft.jasonandviolet.Calculator;

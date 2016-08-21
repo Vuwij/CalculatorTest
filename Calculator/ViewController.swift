@@ -24,8 +24,17 @@ class ViewController: UIViewController {
         } else {
             display.text = digit
         }
-        userInTheMiddleOfTyping = true;
+        userInTheMiddleOfTyping = true
     }
 
+    @IBAction func performOperation(sender: UIButton) {
+        userInTheMiddleOfTyping = false
+        if let mathematicalSymbol = sender.currentTitle{
+            if mathematicalSymbol == "π"{
+                display.text = String(M_PI) //M_PI
+                
+            }
+        }
+    }
 }
 
